@@ -4,21 +4,21 @@ const NavBar = () => {
     return(
         <nav>
             <div className="ui secondary  menu">
-                <button className="active item">
-                    <i class="home icon"></i>
+                <button className="ui black button">
+                    <i className="home icon"></i>
                     Home
                 </button>
-                <button className="item">
-                    <i class="newspaper icon"></i>                    
+                <button className="ui black button">
+                    <i className="newspaper icon"></i>                    
                     Diary
                 </button>
-                <button className="item">
-                    <i class="camera retro icon"></i>
+                <button className="ui black button">
+                    <i className="camera retro icon"></i>
                     Photo
                 </button>
                 <div className="right menu">
-                    <button className="ui item">
-                    <i class="sign-out icon"></i>
+                    <button className="ui black button">
+                    <i className="sign-out icon"></i>
                     Logout
                     </button>
                 </div>
