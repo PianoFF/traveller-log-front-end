@@ -4,25 +4,23 @@ const NavBar = () => {
     return(
         <nav>
             <div className="ui secondary  menu">
-                <a className="active item">
+                <button className="active item">
+                    <i class="home icon"></i>
                     Home
-                </a>
-                <a className="item">
-                    Messages
-                </a>
-                <a className="item">
-                    Friends
-                </a>
+                </button>
+                <button className="item">
+                    <i class="newspaper icon"></i>                    
+                    Diary
+                </button>
+                <button className="item">
+                    <i class="camera retro icon"></i>
+                    Photo
+                </button>
                 <div className="right menu">
-                    <div className="item">
-                        <div className="ui icon input">
-                            <input type="text" placeholder="Search..."></input>
-                            <i className="search link icon"></i>
-                        </div>
-                    </div>
-                    <a className="ui item">
+                    <button className="ui item">
+                    <i class="sign-out icon"></i>
                     Logout
-                    </a>
+                    </button>
                 </div>
             </div>    
         </nav>
