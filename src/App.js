@@ -6,8 +6,14 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <NavBar />
-      <Login />
+      <div className='nav-bar'>
+        <NavBar />
+      </div>
+      <div className='content'>
+        {/* <div className='login-signup'>
+          <Login />
+        </div> */}
+      </div>
     </div>
   )
 }
